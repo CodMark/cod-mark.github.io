@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cod-mark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/layers(1).png" type="image/x-icon">
+    <link rel="stylesheet" id="twelve-blog-google-fonts-css" type="text/css" media="all"
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans%3A300%2C400%2C500%2C600%2C700&amp;subset=latin%2Clatin-ext">
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/css/css.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/javascript/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/xml/xml.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/theme/dracula.css">
+</head>
+<!-- windows loding page -->
+<script>
+    function myFunctionlod() {
+        var preloader = document.getElementById("loading");
+        preloader.style.display = 'none';
+    };
+</script>
+<!-- #################### -->
+
+<body onload="myFunctionlod()">
+    <div id="loading">
+        <div class="centerd">
+            <img src="./images/layers(1).png" alt="">
+            <p>Cod-mark</p>
+        </div>
+    </div>
+
+    <div class="top-area">
+        <div class="logo-img">
+            <img src="./images/layers(1).png" alt="">
+            <p>Cod-mark</p>
+        </div>
+        <div class="rig-scee">
+            <svg viewBox="0 0 20 20" class="rotatee">
+                <path
+                    d="M0 9.002C0 8.45.455 8 .992 8h18.016c.548 0 .992.456.992 1.002v9.996c0 .553-.455 1.002-.992 1.002H.992C.444 20 0 19.544 0 18.998V9.002zm0-8C0 .45.451 0 .99 0h4.02A.99.99 0 016 1.003v4.994C6 6.551 5.549 7 5.01 7H.99A.99.99 0 010 5.997V1.003zm7 0C7 .45 7.451 0 7.99 0h4.02A.99.99 0 0113 1.003v4.994C13 6.551 12.549 7 12.01 7H7.99A.99.99 0 017 5.997V1.003zm7 0C14 .45 14.451 0 14.99 0h4.02A.99.99 0 0120 1.003v4.994C20 6.551 19.549 7 19.01 7h-4.02A.99.99 0 0114 5.997V1.003z">
+                </path>
+            </svg>
+        </div>
+        <div class="full-screen">
+            <img src="./images/full-screen.png" alt="">
+        </div>
+        <button id="run-btn"> <img src="./images/play.png" alt=""></button>
+    </div>
+    <div class="code-editor">
+        <div class="code">
+            <div class="html-area">
+                <div class="topde">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <g>
+                                <path
+                                    d="m314.8 78.7c-13.4-4.5-27.7 2.8-32.1 16.1l-101.6 304.8c-4.4 13.3 3.5 26 16.1 32.1 12.9 6.3 27.2 2.7 32.1-16.1l101.6-304.8c4.4-13.2-2.8-27.6-16.1-32.1z"
+                                    fill="#ff0081" data-original="#000000" class=""></path>
+                                <path
+                                    d="m498.4 233.9-127-81.8c-11.8-7.6-27.5-4.2-35.1 7.6s-4.2 27.5 7.6 35.1l93.9 60.5-93.9 60.5c-11.8 7.6-14.1 22.7-7.6 35.1 6.6 12.6 20.3 14.6 35.1 7.6l127-81.9c7.3-4.7 11.6-12.7 11.6-21.3 0-8.7-4.4-16.7-11.6-21.4z"
+                                    fill="#ff0081" data-original="#000000" class=""></path>
+                                <path
+                                    d="m168.2 315.8-93.9-60.5 93.9-60.5c11.8-7.6 15.2-23.3 7.6-35.1s-23.3-15.2-35.1-7.6l-127 81.8c-7.3 4.7-11.7 12.7-11.7 21.3s4.4 16.7 11.6 21.3l127 81.9c20.2 10.5 28.9 2.6 35.1-7.6 7.4-11.9 4.2-27.5-7.5-35z"
+                                    fill="#ff0081" data-original="#000000" class=""></path>
+                            </g>
+                        </g>
+                    </svg>
+                    <p>HTML</p>
+                </div>
+                <textarea class="htmlEditor" id="html-code"></textarea>
+            </div>
+            <div class="css-area">
+                <div class="topde">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512" xml:space="preserve" class="cssimg">
+                        <g>
+                            <circle cx="195.999" cy="315.999" fill="#596c76" r="15" data-original="#596c76" class="">
+                            </circle>
+                            <circle cx="315.999" cy="315.999" fill="#465a61" r="15" data-original="#465a61"></circle>
+                            <path
+                                d="m316 421c-8.291 0-15-6.709-15-15s6.709-15 15-15c8.276 0 15-6.724 15-15v-17.578c0-12.012 4.688-23.32 13.184-31.816l10.605-10.606-10.605-10.605c-8.496-8.497-13.184-19.805-13.184-31.817v-17.578c0-8.276-6.724-15-15-15-8.291 0-15-6.709-15-15s6.709-15 15-15c24.814 0 45 20.186 45 45v17.578c0 3.94 1.597 7.808 4.395 10.605l21.211 21.211c5.859 5.859 5.859 15.352 0 21.211l-21.211 21.211c-2.798 2.798-4.395 6.665-4.395 10.605v17.579c0 24.814-20.186 45-45 45z"
+                                fill="#ff495a" data-original="#ff495a"></path>
+                            <path
+                                d="m196 421c-24.814 0-45-20.186-45-45v-17.578c0-3.94-1.597-7.808-4.395-10.605l-21.211-21.211c-5.859-5.859-5.859-15.352 0-21.211l21.211-21.211c2.798-2.798 4.395-6.665 4.395-10.605v-17.579c0-24.814 20.186-45 45-45 8.291 0 15 6.709 15 15s-6.709 15-15 15c-8.276 0-15 6.724-15 15v17.578c0 12.012-4.688 23.32-13.184 31.816l-10.605 10.606 10.605 10.605c8.497 8.497 13.184 19.805 13.184 31.817v17.578c0 8.276 6.724 15 15 15 8.291 0 15 6.709 15 15s-6.709 15-15 15z"
+                                fill="#fe810d" data-original="#fe810d" class=""></path>
+                            <circle cx="256" cy="316" fill="#596c76" r="15" data-original="#596c76" class=""></circle>
+                            <path d="m271 316c0 8.399-6.599 15-15 15v-30c8.401 0 15 6.599 15 15z" fill="#465a61"
+                                data-original="#465a61"></path>
+                        </g>
+                    </svg>
+                    <p style="margin-left: 12px;">CSS</p>
+                </div>
+                <textarea class="cssEditor" id="css-code"></textarea>
+            </div>
+            <div class="js-area">
+                <div class="topde">
+                    <svg viewBox="0 0 15 15" class="file-type-icon jsimg" id="icon-file-js">
+                        <rect fill="#FCD000" width="16" height="16" rx="4"></rect>
+                        <path
+                            d="M6.554 3.705c0 .267-.19.496-.452.543-1.2.217-2.12 1.61-2.12 3.275 0 1.665.92 3.057 2.12 3.274a.554.554 0 0 1-.205 1.087c-1.733-.322-3.022-2.175-3.022-4.361 0-2.187 1.289-4.04 3.022-4.362a.554.554 0 0 1 .657.544zm1.892 0c0-.347.316-.607.657-.544 1.733.322 3.022 2.175 3.022 4.362 0 2.186-1.289 4.04-3.022 4.361a.554.554 0 0 1-.205-1.087c1.2-.217 2.12-1.61 2.12-3.274 0-1.665-.92-3.058-2.12-3.275a.551.551 0 0 1-.452-.543z"
+                            fill="#282828"></path>
+                    </svg>
+                    <p>JS</p>
+                </div>
+                <textarea class="jsEditor" id="js-code"></textarea>
+            </div>
+        </div>
+        <div id="resultss" class="tabcontent resultnf">
+            <iframe id="result"></iframe>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    const htmlEditor = CodeMirror.fromTextArea(document.getElementById('html-code'), {
+        lineNumbers: true,
+        mode: "xml",
+        theme: "dracula",
+        tabSize: 4
+    })
+    const cssEditor = CodeMirror.fromTextArea(document.getElementById('css-code'), {
+        lineNumbers: true,
+        mode: "css",
+        theme: "dracula",
+        tabSize: 4
+    })
+    const jsEditor = CodeMirror.fromTextArea(document.getElementById('js-code'), {
+        lineNumbers: true,
+        mode: "javascript",
+        theme: "dracula",
+        tabSize: 4,
+    })
+
+    document.querySelector('#run-btn').addEventListener("click", function () {
+        let csscode = "<style>" + cssEditor.getValue() + "</style>";
+        let htmlcode = htmlEditor.getValue();
+        let jscode = "<scri" + "pt>" + jsEditor.getValue() + "</scri" + "pt>";
+        let previrwwindow = document.querySelector("#result").contentWindow.document;
+        previrwwindow.open();
+        previrwwindow.write(htmlcode + csscode + jscode);
+        previrwwindow.close();
+        document.getElementById('result').classList.add('backcor');
+    });
+
+    document.querySelector('.full-screen').addEventListener("click", function () {
+        document.querySelector('.code').classList.toggle('hide');
+        document.querySelector('.full-screen').classList.toggle('colorr');
+    });
+
+    document.querySelector('.rig-scee').addEventListener("click", function () {
+        document.querySelector('.code-editor').classList.toggle('right');
+        document.querySelector(".rotatee").classList.toggle('rotss');
+    });
+</script>
+
+</html>
